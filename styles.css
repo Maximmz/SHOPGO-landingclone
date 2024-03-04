@@ -1,0 +1,253 @@
+.section-padding {
+    padding-top: 30px;
+}
+.start {
+    background-color: #693EA3;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%; 
+    width: 300px;
+    border-radius: 2px 10px 2px 10px !important;
+}
+.link {
+    color: white;
+}
+.link:hover {
+    color: #fabe50;
+    text-decoration-line: underline;
+
+}
+/* Navbar */
+.nav {
+    background-color: #693EA3;
+}
+a.nav-link.wego {
+    color: white;
+    font-weight: 200; 
+    border-radius: 2px 10px 2px 10px;
+}
+a.nav-link.wego:hover {
+    border-radius: 2px 10px 2px 10px;
+    background-color: #fabe50;
+    color:#693EA3;
+    transform: scale(1.05);
+}
+a.nav-link.shipping {
+    color: white;
+    font-weight: 200; 
+    background-color: #6173b7;
+    border-radius: 2px 10px 2px 10px;
+}
+a.nav-link.shipping:hover {
+    border-radius: 2px 10px 2px 10px;
+    background-color: #fabe50;
+    color:#693EA3;
+    transform: scale(1.05);
+}
+/* Icons */
+.icons {
+    font-size: 30px;
+    font-weight:400;
+    position: relative;
+    
+}
+
+.wallet:hover {
+    color: #f7bd4f;
+
+}
+.wallet {
+    color: white;
+}
+.text {
+    font-size: 13px;
+    opacity: 0.7;
+}
+.icontext {
+    font-size: 12px;
+}
+.amount {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+
+.count {
+    position: absolute;
+    border-radius: 90px;
+    background-color: #fabe50;
+    top: -2px;
+    right: -3px;
+    min-width: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 4px;
+    text-align: center;
+    color: black;
+
+}
+.wallet:hover .count {
+    color: #693EA3;
+}
+/* Image */
+._rw {
+    width: 180px;
+    height: 100%;
+}
+
+/* Dropdown */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 2px 10px 2px 10px !important;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    transition: all 0.6s ease;
+    display: block;
+    border-radius: 2px 10px 2px 10px !important;
+
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.login {
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+.bi-cart {
+    width: 70%;
+    height: 100%;
+    font-size: 100px;
+    color: #693EA3;
+    text-align: center;
+}
+
+.wishlist {
+    color: #693EA3;
+    height: 50px;
+    padding-top: 10px;
+    background-color:#eef;
+}
+
+/* Searchbar */
+
+.searchbar {
+    border-radius: 2px 14px 2px 14px;
+    border:1px solid grey;
+    padding: 2px;
+    box-shadow: 3px 3px 20px #464646b4;
+    border-top: 1px solid #838383;
+    border-left: 1px solid #838383;
+    border-bottom: 3px solid #838383;
+    border-right: 3px solid #838383;
+}
+
+.searchbar:hover {
+    border-radius: 14px 2px 14px 2px;
+    box-shadow: 20px 3px 3px #838383;
+}
+.searchbtn {
+    border-radius: 2px 14px 2px 14px;
+    background-color: #fabe50;
+    color: #fff;
+    width: 20%;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.searchbtn:hover {
+    border-radius: 14px 2px 14px 2px;
+    background-color:#693EA3;
+    color: white;
+}
+
+
+
+/* Images */
+
+.images {
+    width: 100%;
+}
+
+/* Card */
+
+.cat {
+    border-right: 2px solid rgb(148, 148, 148) !important;
+    background-color: #cecfff;
+}
+.cat:hover {
+    cursor: pointer;
+}
+
+.card-icon {
+    font-size: 50px;
+    text-align: center;
+}
+
+.cat-text {
+    color:#693EA3;
+    font-weight: 800;
+}
+.cat-img {
+    background-color: #ffda97;
+    border-radius: 3px 15px 3px 15px;
+}
+
+.cat:hover .cat-img {
+    transform: rotate(-15deg);
+    transition: all 0.3s ease-in;
+    border-radius: 3px 15px 3px 15px;
+    background-color: #fabe50;
+}
+
+.cat:hover .cat-text {
+    color: #fabe50;
+}
+
+/* Brand */
+
+.brand {
+    box-shadow: 3px 3px 20px #464646b4;
+    width: calc(100%/6.5);
+    border-radius: 3px 15px 3px 15px;
+}
+
+@media only screen and (max-width: 830px){
+
+    .brand-img {
+        width: 100%;
+    }
+    .cat-text {
+        font-size: 10px;
+    }
+
+    .searchbar {
+        width: 100%;
+    }
+    .searchbtn {
+        width: 50vh;
+    }
+}
